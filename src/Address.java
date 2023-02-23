@@ -3,9 +3,9 @@ public class Address {
     private String streetName;
     private String city;
     private String state;
-    private int zipCode;
+    private String zipCode;
 
-    public Address(String houseNum, String streetName,String city, String state, int zipcode){
+    public Address(String houseNum, String streetName,String city, String state, String zipcode){
         this.houseNum = houseNum;
         this.streetName = streetName;
         this.city = city;
@@ -30,7 +30,7 @@ public class Address {
         a = a.substring(a.indexOf(",")+2);
         state = a.substring(0, a.indexOf(" "));
         a = a.substring(a.indexOf(" ")+1);
-        zipCode = Integer.parseInt(a.substring(0));
+        zipCode = a.substring(0);
     }
 
     public String getHouseNum() {
@@ -65,11 +65,11 @@ public class Address {
         this.state = state;
     }
 
-    public int getZipCode() {
+    public String getZipCode() {
         return zipCode;
     }
 
-    public void setZipCode(int zipCode) {
+    public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
     }
 

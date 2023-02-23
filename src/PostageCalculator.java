@@ -1,8 +1,11 @@
 public class PostageCalculator {
-    public static double calculatePostage(int originZip, int destinationZip, double weight, double length, double width, double height) {
-        if (originZip < 10000 || originZip > 99999 || destinationZip < 10000 || destinationZip > 99999) {
-            throw new IllegalArgumentException("Zip codes have to be five digits");
+    public static double calculatePostage(String originZip, String destinationZip, double weight, double length, double width, double height) {
+        if(originZip.length() != 5 || destinationZip.length() != 5){
+            throw new IllegalArgumentException("Zip Codes must be 5 digits.");
         }
+        int intOriginZip = Integer.parseInt(originZip);
+        int intDesZip = Integer.parseInt(destinationZip);
+
         double oversizeCost = 0;
         double combinedLength = length + width + height;
         if(combinedLength > 36){
@@ -17,8 +20,8 @@ public class PostageCalculator {
         double baseCost = 3.75;
         double weightCost = Math.ceil(weight * 10) * 0.05;
 
-        int originCountyCode = originZip / 100;
-        int destinationCountyCode = destinationZip / 100;
+        int originCountyCode = intOriginZip / 100;
+        int destinationCountyCode = intDesZip / 100;
         double countyCodeDifference = Math.abs(originCountyCode - destinationCountyCode);
         double countyCodeCost = countyCodeDifference / 100;
 

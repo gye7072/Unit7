@@ -16,9 +16,10 @@ public class PackageRunner {
             if (choice == 1) {
                 System.out.println("________________________________________");
                 System.out.print("Enter the zip code of the origin package: ");
-                int zipCode = s.nextInt();
+                Scanner s2 = new Scanner(System.in);
+                String zipCode = s2.nextLine();
                 System.out.print("Enter the zip code of the destination package: ");
-                int zipCode2 = s.nextInt();
+                String zipCode2 = s2.nextLine();
                 System.out.print("Enter the weight of the package: ");
                 double weight = s.nextDouble();
                 System.out.print("Enter the height of the package: ");

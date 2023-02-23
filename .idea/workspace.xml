@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e403b669-9a42-4de3-b973-15bf12ce728b" name="Changes" comment="">
+    <list default="true" id="e403b669-9a42-4de3-b973-15bf12ce728b" name="Changes" comment="Fixed everything but the zipCode generator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PackageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PackageSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageSimulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PostageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostageCalculator.java" afterDir="false" />
@@ -61,6 +61,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676564731067</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixed everything but the zipCode generator">
+      <created>1676842576277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676842576278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,5 +81,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed everything but the zipCode generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed everything but the zipCode generator" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
