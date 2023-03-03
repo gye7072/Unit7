@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e403b669-9a42-4de3-b973-15bf12ce728b" name="Changes" comment="Fixed everything but the zipCode generator">
+    <list default="true" id="e403b669-9a42-4de3-b973-15bf12ce728b" name="Changes" comment="Fixed the zipCode generator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PackageSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostageCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676842576278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed the zipCode generator">
+      <created>1677195729110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677195729110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,7 +88,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed everything but the zipCode generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed everything but the zipCode generator" />
+    <MESSAGE value="Fixed the zipCode generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the zipCode generator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
